@@ -1,0 +1,35 @@
+/*DESCRIÇÃO NATALIA*/
+@keyframes bgcolor {
+    0% {
+        background-color: rgb(255, 123, 0)
+    }
+    30% {
+        background-color: #ffc65dd7
+    }
+    60% {
+        background-color: #eb670f
+    }
+    90% {
+        background-color: #f35
+    }
+    100% {
+        background-color: #ff004cd7
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

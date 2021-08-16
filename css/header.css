@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+header {
+    background-image: linear-gradient(to right, #ED912B, #ED2B52);
+    /*padding: 20px;*/
+}
+
+.caixa {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.img-header {
+    max-width: 220px;
+    max-height: 220px;
+    width: auto;
+    height: auto;
+    margin: 20px 0;    
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+    font-family: 'Tinos', serif;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    transition: 1s all;
+}
+
+nav a:hover {
+    color:rgb(255, 94, 1);
+    font-size: 105%;
+}
