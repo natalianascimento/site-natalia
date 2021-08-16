@@ -1,3 +1,131 @@
-.banner {
+/*GERAL*/
+body {
+    background: rgb(255, 231, 166);
+}
+
+main {
+	width: 65%;
+	margin: 0 auto;
+    background: rgb(255, 228, 155);
+    color: #ff5100;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.principal{
+    background-color: #ffc5699c;
+    padding: 10px;
+    margin: 25px 0;
+    display: inline-table;
+}
+
+.principal img {
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    filter: contrast(125%);
+}
+
+.bloco1 {
+    margin-left: 10px;
+    vertical-align: middle;
+    display: table-cell;
+    
+}
+
+.bloco1 h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.bloco1 p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.botao-centralizado {
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+
+.botao-centralizado a {
+    background-color: rgb(255, 123, 0);
+    border: 1px solid rgb(223, 111, 6);
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 2px;
+    transition: 1s background-color;
+}
+
+.botao-centralizado a:hover {
+    background-color: rgb(255, 60, 0);
+}
+
+/*.texto-destaque {
+    text-align: justify;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(255, 123, 0);
+    width: 50%;
+}
+*/
+
+
+
+
+
+
+
+
+
+.sub-post {
+    clear: left;
+    text-align: justify;
+}
+.sub-post:after {
+    content: '';
+    display: inline-block;
     width: 100%;
+    height: 0;
+}
+
+.quadrado {
+    width: 30%;
+    background-color: #ffc65dd7;
+    padding: 25px 10px;
+    display: inline-block;
+    
+}
+
+.texto-resumo {
+    text-align: center;
+    font-size: 18px;
+}
+
+.img-quadrado {
+    width: 80%;
+    height: 220px;
+    overflow: hidden;
+    border: 3px solid orange;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;;
+}
+
+.img-quadrado img {
+    height: auto;
+	width: 300px;
+	margin: 0px 0 0 0px;
 }

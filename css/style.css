@@ -49,13 +49,7 @@ main {
 }
 
 
-/*TEXTO DE DESTAQUE EM LARANJA*/
-.texto-destaque-laranja {
-    color: rgb(255, 94, 1);
-    font-size: 35px;
-    font-family: 'Tinos', serif;
-    text-align: justify;
-}
+
 
 /*TEXTO DE DESTAQUE EM BRANCO*/
 .texto-destaque-branco {
@@ -91,6 +85,11 @@ main {
 .bloco1 .texto p {
     position: relative;
     line-height: 2em;
+    font-size: 19px;
+}
+
+.bloco1 .texto:first-child {
+    font-size: 1.2em;
 }
 
 /*PROPRIEDADES SOBRE O SEGUNDO BLOCO DA PÁGINA SOBRE NATÁLIA*/
@@ -120,6 +119,8 @@ main {
     vertical-align: middle;
     display: table-cell;
     padding: 0 10px 0 10px;
+    line-height: 2em;
+    font-size: 19px;
 }
 
 .bloco3 img {
@@ -129,19 +130,6 @@ main {
     /*margin: 0 20px 20px 0;*/
     float: left;
 }
-
-
-/*PROPRIEDADES SOBRE O TERCEIRO BLOCO DA PÁGINA SOBRE NATÁLIA*/
-.texto-apresentacao {
-    margin: 1.2em 0 1.2em;
-    font-size: 1.2em;
-}
-
-
-
-
-
-
 
 /*PÁGINA ABOUT*/
 .retangulo{
@@ -169,12 +157,7 @@ main {
     width: 70%;
 }
 
-.texto-destaque {
-    text-align: justify;
-    margin-bottom: 40px;
-    line-height: 1.5;
 
-}
 
 a {
     color:rgb(148, 54, 0);
@@ -229,79 +212,7 @@ a {
     transform: rotate(90);
 }
 
-.categoria-conteudo {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 16px;
-}
 
-
-hr {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border: 1px solid rgb(255, 123, 0);
-    width: 50%;
-}
-
-.botao-centralizado {
-    height:50px;
-    display: flex;
-    align-items: center;
-}
-
-.botao-centralizado a {
-    background-color: rgb(255, 123, 0);
-    border: 1px solid rgb(223, 111, 6);
-    text-decoration: none;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 2px;
-    transition: 1s background-color;
-}
-
-.botao-centralizado a:hover {
-    background-color: rgb(255, 60, 0);
-}
-
-.sub-post {
-    text-align: justify;
-}
-.sub-post:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-    height: 0;
-}
-
-.quadrado {
-    width: 30%;
-    background-color: #ffc65dd7;
-    padding: 25px 10px;
-    display: inline-block;
-    
-}
-
-.texto-resumo {
-    text-align: center;
-    font-size: 18px;
-}
-
-.img-quadrado {
-    width: 80%;
-    height: 220px;
-    overflow: hidden;
-    border: 3px solid orange;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;;
-}
-
-.img-quadrado img {
-    height: auto;
-	width: 300px;
-	margin: 0px 0 0 0px;
-}
 
 
 .aumentar-emoji {

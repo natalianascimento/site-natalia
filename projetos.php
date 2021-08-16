@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/projetos.css">
+    <!--<link rel="stylesheet" href="css/style.css">-->
     <title>Meus Projetos - Natália Nascimento</title>
 </head>
 <body>
@@ -13,12 +14,19 @@
         <?php require_once('header.html'); ?>
     </header>
 
-    <img src="img/projetos.jpg" class="banner">
-    <h1>Projetos</h1>
-
     <main>
+        <div class="principal">
+            <img src="img/barbearia-alura.PNG">
+            <div class="bloco1">
+                <h2>Barbearia Alura</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate neque, placeat error quaerat labore, ab perferendis accusantium dolorum nihil et dolor qui maxime ducimus asperiores, impedit eveniet quae! Soluta, atque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio itaque consectetur veniam molestiae ea labore accusantium commodi nesciunt fugit facilis reiciendis, suscipit inventore ut exercitationem aspernatur id aut. Dolores, inventore!</p>
+                <div class="botao-centralizado">
+                    <a href="http://natalianascimento.com.br/projetos/barbearia-alura/" target="_blank">Confira</a>
+                </div>
+            </div>
+        </div>
 
-        <p>Projetos</p>
+
     </main>
 
     <footer>

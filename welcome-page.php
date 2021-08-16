@@ -10,6 +10,9 @@
     <title>Welcome - Natália Nascimento</title>
 </head>
 <body>
+    <header>
+        <?php require_once('header.html'); ?>
+    </header>
     <!-- <a href="home.php"> -->
         <img src="img/Logo_Natalia_V2.png">
         <p class="destaque">Seja Bem-vindo(a)</p>

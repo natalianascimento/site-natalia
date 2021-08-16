@@ -1,0 +1,59 @@
+/*GERAL*/
+body {
+    background: rgb(255, 231, 166);
+}
+
+main {
+	width: 65%;
+	margin: 0 auto;
+    background: rgb(255, 228, 155);
+    color: #ff5100;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.contato {
+    padding: 10px;
+    margin: 25px 0;
+    display: inline-table;
+    background-color: #FFD27C;
+    width: 100%;
+    width: -webkit-fill-available;
+}
+
+.dados-contato{
+    margin: 0 10px;
+    float: left;
+}
+
+.foto {
+    height: 400px;
+    width: 300px;
+    background-color: #ffb700;
+    overflow: hidden;
+    float: left;
+}
+
+.foto img {
+    max-height: 400px;
+    margin-left: -124px;
+    filter: blur(1px);
+    filter: opacity(0.7);
+}
+
+.icones {
+    margin: 25px auto;
+    font-size: 2.5em;
+}
+
+.icones a i {
+    margin: 0 10px;
+    color: #ff5100;
+}
+.icones a i:hover {
+    color: #ffb700;
+}
+
+.limpar-float {
+    clear: left;
+}
