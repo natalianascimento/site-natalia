@@ -2,7 +2,9 @@
 
 header {
     background-image: linear-gradient(to right, #ED912B, #ED2B52);
-    /*padding: 20px;*/
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .caixa {

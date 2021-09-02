@@ -1,0 +1,13 @@
+body {
+    background: rgb(255, 231, 166);
+    padding-top: 153px;
+}
+
+main {
+	width: 65%;
+	margin: 0 auto;
+    background: rgb(255, 228, 155);
+    color: rgb(148, 54, 0);
+    font-size: 20px;
+    padding: 0 20px;
+}

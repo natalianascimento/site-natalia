@@ -4,20 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/*GERAL*/
-body {
-    background: rgb(255, 231, 166);
-}
-
-main {
-	width: 65%;
-	margin: 0 auto;
-    background: rgb(255, 228, 155);
-    color: rgb(148, 54, 0);
-    font-size: 20px;
-    padding: 0 20px;
-}
-
 .limpar-float {
     clear: left;
 }
@@ -83,7 +69,7 @@ main {
 }
 
 .bloco1 .texto p {
-    position: relative;
+    /*position: relative;*/
     line-height: 2em;
     font-size: 19px;
 }

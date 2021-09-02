@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Sobre - Natália Nascimento</title>
+
 </head>
 <body>
     <header>
@@ -20,7 +22,6 @@
     </div>
     
     <main>
-        
         <div class="bloco1">
             <img src="img/foto-natalia.png" class="foto-natalia">
             <div class="texto">

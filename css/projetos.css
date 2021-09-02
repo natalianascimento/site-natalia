@@ -1,16 +1,4 @@
-/*GERAL*/
-body {
-    background: rgb(255, 231, 166);
-}
 
-main {
-	width: 65%;
-	margin: 0 auto;
-    background: rgb(255, 228, 155);
-    color: #ff5100;
-    font-size: 18px;
-    padding: 0 20px;
-}
 
 .principal{
     background-color: #ffc5699c;
@@ -26,7 +14,7 @@ main {
     height: auto;
     float: left;
     margin-right: 10px;
-    filter: contrast(125%);
+    /*filter: contrast(125%);*/
 }
 
 .bloco1 {

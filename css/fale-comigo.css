@@ -1,16 +1,3 @@
-/*GERAL*/
-body {
-    background: rgb(255, 231, 166);
-}
-
-main {
-	width: 65%;
-	margin: 0 auto;
-    background: rgb(255, 228, 155);
-    color: #ff5100;
-    font-size: 18px;
-    padding: 0 20px;
-}
 
 .contato {
     padding: 10px;
@@ -37,8 +24,8 @@ main {
 .foto img {
     max-height: 400px;
     margin-left: -124px;
-    filter: blur(1px);
-    filter: opacity(0.7);
+    /*filter: blur(1px);
+    filter: opacity(0.7);*/
 }
 
 .icones {
